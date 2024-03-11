@@ -1,15 +1,20 @@
-﻿#include <iostream>
+#include <iostream>
 using namespace std;
 
 int main()
 {
     setlocale(LC_ALL, "rus");
     //1
-    float sec;
+    int sec, min, hours;
     cout << "введите время в секундах:";
     cin >> sec;
-    cout << sec / 60 << " минут" << endl;
-    cout << sec / 3600 << " часов\n";
+    min = sec / 60;
+    sec = sec % 60;
+    hours = min / 60;
+    min = min % 60;
+    cout << hours << " часов\n";
+    cout << min << " минут" << endl;
+    cout << sec << " секунд\n";
     //2
     float n;
     int dollar, cent;
@@ -17,7 +22,7 @@ int main()
     cin >> n;
     dollar = n;
     cent = (n - dollar) * 100;
-    cout << dollar << "," << cent << endl;
+    cout << dollar << " dollars " << cent << " cents " << endl;
     //3
     int d, a;
     cout << "введите количество дней:" << endl;
@@ -54,4 +59,3 @@ int main()
 
 
 }
-
