@@ -12,8 +12,8 @@ int main() {
         int c = min + rand() % (max - min + 1);
         array[i] = c;
         cout << array[i] << " ";
-        cout << endl;
     }
+    cout << endl;
     // bubblesort
     bool flag;
     for (int j = 0; j < A; j++) {
