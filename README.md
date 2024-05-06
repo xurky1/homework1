@@ -13,7 +13,7 @@ repository for c++ hw  😃😃😃
 [dz4.cpp](https://github.com/xurky1/homework1/blob/main/dz4.cpp)
 
 ### homework 5(28.02.2024)
-[dz5.cpp]()
+[dz5.cpp](https://github.com/xurky1/homework1/blob/main/dz5.cpp)
 
 ### homework 7(11.03.2024)bubblesort
 [dz7.cpp](https://github.com/xurky1/homework1/blob/main/dz7.cpp)
